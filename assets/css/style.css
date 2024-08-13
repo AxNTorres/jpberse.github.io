@@ -64,7 +64,24 @@
     padding: 0 50px;
     height: 100%
 }
-
+.box-figure{
+    border: solid 1px black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 40vh;
+    width: 40vh;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0;    
+    background-color: grey;
+    border-color: transparent;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+.box-figure div figure{
+    margin: 0;
+    padding: 0;
+}
 .hero-text-content {
     max-width: 50%;
 }
