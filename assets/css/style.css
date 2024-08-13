@@ -50,6 +50,8 @@
 .hero-sec {
     display: flex;
     flex-direction: column;
+    height: 80vh;
+    width: 100%;
     justify-content: space-between;
     background: linear-gradient(-120deg, var(--terciary-color) 50%, var(--primary-color) 50%);
     position: relative;
